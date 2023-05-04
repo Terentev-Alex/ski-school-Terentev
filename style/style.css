@@ -1,3 +1,21 @@
+/* Font
+Montserrat
+Weight
+500
+
+Font
+Montserrat
+Weight
+400
+
+Font
+Oswald
+Weight
+500
+ */
+
+
+
 .container {
   margin: 0 auto;
   width: 1440px;
@@ -6,6 +24,10 @@
 
 body {
   margin: 0;
+}
+
+.btn {
+  text-decoration: none;
 }
 
 .header {
@@ -21,6 +43,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.promo-title {
+  color: #FFFFFF;
+  margin: 81px 240px 81px 30px;
+}
+
+.promo-text {
+  color: #FFFFFF;
+  margin: 190px 30px 190px 260px;
+}
+
+.lead {
+
+  background-color:rgba(102, 209, 255, 0.1) ;
 }
 
 .social-ling {
