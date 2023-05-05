@@ -1,18 +1,10 @@
-/* Font
-Montserrat
-Weight
-500
 
-Font
-Montserrat
-Weight
-400
+/* Montserrat - 400 */
 
-Font
-Oswald
-Weight
-500
- */
+/* Montserrat - 500 */
+
+/* Oswald 500 */
+
 
 
 
@@ -46,6 +38,7 @@ body {
 }
 
 .promo-title {
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   margin: 81px 240px 81px 30px;
 }
