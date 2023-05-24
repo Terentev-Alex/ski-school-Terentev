@@ -1,10 +1,13 @@
-
 /* Montserrat - 400 */
 
 /* Montserrat - 500 */
 
 /* Oswald 500 */
 
+
+* {
+  box-sizing: border-box;
+}
 
 
 
@@ -18,12 +21,44 @@ body {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .btn {
+  display: inline-block;
+  text-align: center;
   text-decoration: none;
 }
 
+/* HEADER */
 .header {
+  padding: 31px 0;
   background-color: #66D1FF;
+
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 41px;
+  width: 276px;
+  height: 45px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+.number {
+  color: rgba(6, 13, 16, 1);
 }
 
 .promo {
@@ -50,7 +85,7 @@ body {
 
 .lead {
 
-  background-color:rgba(102, 209, 255, 0.1) ;
+  background-color: rgba(102, 209, 255, 0.1);
 }
 
 .social-ling {
